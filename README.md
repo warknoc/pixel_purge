@@ -11,7 +11,7 @@ A lightweight, zero-telemetry Chrome extension built on Manifest V3 and the `dec
 ## Manual Installation (Developer Mode)
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/warknoc/pixel_purge.git](https://github.com/warknoc/pixel_purge.git)
+   git clone https://github.com/warknoc/pixel_purge.git
 
 ---
 
