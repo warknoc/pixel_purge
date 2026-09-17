@@ -12,3 +12,11 @@ A lightweight, zero-telemetry Chrome extension built on Manifest V3 and the `dec
 1. Clone this repository:
    ```bash
    git clone [https://github.com/warknoc/pixel_purge.git](https://github.com/warknoc/pixel_purge.git)
+
+---
+
+## Support
+
+If VaultGuard saved your credentials from leaking, you can support development directly:
+
+- **USDC (Ethereum / Base):** 0x9805F8fd4A23Dd39cce11c03C10e6f966B1D6755
