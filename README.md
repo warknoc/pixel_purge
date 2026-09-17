@@ -9,9 +9,9 @@ A lightweight, zero-telemetry Chrome extension built on Manifest V3 and the `dec
 - **Complete Privacy:** Operates 100% locally. No data collection, external servers, or telemetry.
 
 ## Manual Installation (Developer Mode)
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/warknoc/pixel_purge.git
+1. Clone or download this repository.
+2. Open Chrome and navigate to `chrome://extensions`.
+3. Enable **Developer mode** (top-right toggle), click **Load unpacked**, and select the `pixel_purge` folder.
 
 ---
 
