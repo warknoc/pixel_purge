@@ -1,0 +1,29 @@
+﻿{
+  "manifest_version": 3,
+  "name": "Pixel Purge: Ghost Tracker & UTM Stripper",
+  "version": "1.0.2",
+  "description": "Zero-telemetry browser shield. Strips marketing UTM/click IDs and blocks 1x1 ghost tracking beacons.",
+  "permissions": [
+    "declarativeNetRequest",
+    "declarativeNetRequestWithHostAccess",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
