@@ -20,3 +20,8 @@ A lightweight, zero-telemetry Chrome extension built on Manifest V3 and the `dec
 If Pixel Purge saved the day, you can support development directly:
 
 - **USDC (Ethereum / Base):** 0x9805F8fd4A23Dd39cce11c03C10e6f966B1D6755
+
+### Permissions & Zero-Telemetry Scope
+* **Host Permission (<all_urls>):** Solely required by Manifest V3 to rewrite and sanitize tracking parameters across destination links in real-time.
+* **Air-Gapped Privacy:** The extension executes zero remote scripts, connects to zero external endpoints, and does not inspect DOM contents, user inputs, or credentials.
+
